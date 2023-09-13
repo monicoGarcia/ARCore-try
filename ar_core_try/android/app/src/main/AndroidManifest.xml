@@ -1,11 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-
-    <uses-sdk android:minSDKVersion="24"/>
-    <uses-permision android:name="android.permision.CAMARA"/>
-    <uses-feture android:name="android.hardware.camara.ar"/>
-
     <application
         android:label="ar_core_try"
         android:name="${applicationName}"
@@ -26,7 +19,6 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-            <meta-data android:name="com.google.ar.core" android:value="required"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
